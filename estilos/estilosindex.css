@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(../fotos/footer_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../fotos/kobe-bryant-24-logo-2445-x-1392-n98cpcel738dk9qy.jpg);
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75)
+}
+
+header img{
+    width: 90px;
+    height: 90px;
+    margin-left: 2%;
+}
+
+nav{
+    margin-right: 1%;
+    display: flex;
+}
+
+nav .trofeo{
+    margin: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav a{
+    color: yellow;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    font-size: 15pt;
+}
+
+nav a img{
+    width: 50px;
+    height: auto;
+}
+
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+article #medio p{
+    text-align: center;
+}
+
+article #centro{
+    width: 100%;
+    height: 500px;
+    margin: 2% 0% 0% 0%;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+}
+
+article #centro #foto{
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article #centro #foto img{
+    width: 100%;
+    height: auto;
+}
+
+article #medio{
+    width: 96%;
+    height: 500px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: solid 2px yellow;
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75)
+}
+
+article #bajo{
+    width: 96%;
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: solid 2px yellow;
+}
+
+table {
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+    border: none;
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75)
+}
+
+th{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr, td {
+    border: none;
+  font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table tr #celda1{
+    width: 225px;
+    height: 225px;
+    background-image: url(../fotos/galeria/04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+table tr #celda2{
+    width: 225px;
+    height: 225px;
+    background-image: url(../fotos/galeria/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+table tr #celda3{
+    width: 250px;
+    height: 225px;
+    background-image: url(../fotos/galeria/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+    
+table tr #celda4{
+    width: 225px;
+    height: 225px;
+    background-image: url(../fotos/galeria/16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+table tr #celda5{
+    width: 225px;
+    height: 225px;
+    background-image: url(../fotos/galeria/07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+        
+table tr #celda6{
+    width: 225px;
+    height: 225px;
+    background-image: url(../fotos/galeria/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid yellow;
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+}
+
+#lista h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lista li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#estadisticas{
+    width: 96%;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#estadisticas #tablanumeros{
+    width: 45%;
+    height: auto;
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75)
+}
+
+#estadisticas #tablanumeros th{
+    width: 45px;
+    height: auto;
+    border: 1px solid yellow;
+}
+
+#estadisticas #tablanumeros td{
+    width: 45px;
+    height: auto;
+    padding-left: 8px;
+    border: 1px solid yellow;
+}
+
+#estadisticas #lista{
+    width: 45%;
+    height: auto;
+    padding: 8px;
+    text-align: start;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../fotos/cancha.jpg);
+    -webkit-box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+
+footer #qr{
+    width: 80px;
+    height: 80px;
+    background-image: url(../fotos/qr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer button{
+    width: 7%;
+    height: 35%;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: 15px;
+    border: solid 2px black;
+}
+
+footer button a{
+    font-family: sans-serif;
+    color: gold;
+}
+
+#redes #sociales a{
+    padding: 15px;
+}
+
+#redes #sociales a img{
+    width: 40px;
+    height: auto;
+}
+
+#TT_yhfwbxdBdlKaScMKQAVDzjzDD5aKTKllLtkt1siIKkz{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

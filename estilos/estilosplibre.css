@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(../fotos/footer_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../fotos/kobe-bryant-24-logo-2445-x-1392-n98cpcel738dk9qy.jpg);
+    -webkit-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 15px 0px rgba(0,0,0,0.75)
+}
+
+header img{
+    width: 90px;
+    height: 90px;
+    margin-left: 2%;
+}
+
+nav{
+    margin-right: 1%;
+    display: flex;
+}
+
+nav .trofeo{
+    margin: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav a{
+    color: yellow;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    font-size: 15pt;
+}
+
+nav a img{
+    width: 50px;
+    height: auto;
+}
+
+article #cabecera video{
+    width: 90%;
+    height: auto;
+    margin: 2% 5% 0% 5%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#arti1{
+    width: 90%;
+    height: 400px;
+    margin: 0% 5% 0% 5%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    border-radius: 10px;
+    border: solid 2px gold;
+}
+
+#arti1 #uno{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#arti1 #uno #noticia1{
+    width: 50%;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#arti1 #uno #foto1{
+    width: 50%;
+    height: 400px;
+    background-image: url(../fotos/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#arti2{
+    width: 90%;
+    height: 400px;
+    margin: 0% 5% 0% 5%;
+    margin-bottom: 25px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    border: solid 2px gold;
+}
+
+#arti2 #dos{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#arti2 #dos #noticia2{
+    width: 50%;
+    height: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+#arti2 #dos #foto2{
+    width: 50%;
+    height: 400px;
+    padding: 5px;
+    background-image: url(../fotos/rawfinaljpg.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#arti3{
+    width: 90%;
+    height: 400px;
+    margin: 0% 5% 0% 5%;
+    margin-bottom: 25px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    border: solid 2px gold;
+}
+
+#arti3 #tres{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#arti3 #tres #foto3{
+    width: 50%;
+    height: 400px;
+    background-image: url(../fotos/mamba_out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#arti3 #tres #noticia3{
+    width: 50%;
+    height: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#arti4{
+    width: 90%;
+    height: 400px;
+    margin: 0% 5% 0% 5%;
+    margin-bottom: 25px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.65);
+    border: solid 2px gold;
+}
+
+#arti4 #cuatro{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#arti4 #cuatro #foto4{
+    width: 50%;
+    height: 400px;
+    background-image: url(../fotos/oscar.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#arti4 #cuatro #noticia4{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../fotos/cancha.jpg);
+    -webkit-box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 43px 28px -24px rgba(0,0,0,0.75);
+    margin-top: 20px;
+}
+
+footer #qr{
+    width: 80px;
+    height: 80px;
+    background-image: url(../fotos/qr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer button{
+    width: 7%;
+    height: 35%;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: 15px;
+    border: solid 2px black;
+}
+
+footer button a{
+    font-family: sans-serif;
+    color: gold;
+}
+
+#redes #sociales a{
+    padding: 15px;
+}
+
+#redes #sociales a img{
+    width: 40px;
+    height: auto;
+}
+
+#TT_yhfwbxdBdlKaScMKQAVDzjzDD5aKTKllLtkt1siIKkz{
+    margin: 30px;
+}
