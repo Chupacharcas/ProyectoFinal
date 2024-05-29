@@ -1,0 +1,30 @@
+#general{
+    width: 1920px;
+    height: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#header	{
+    background-color: #CCCC99;
+    width: 1920px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#contenido	{
+    background-color: #9583B6;
+        width: 1920px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+
+#footer	{
+    background-color: #00FF99;
+    width: 1920px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}

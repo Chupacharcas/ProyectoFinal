@@ -1,0 +1,31 @@
+body{
+	background-color: aqua; 
+	font-family: arial; 
+	margin-left: 2cm; 
+	margin-right: 1cm; 
+	font-size: 10;
+}
+
+h1	{
+	font-size: 14; 
+	color: green; 
+	font-weight: bold;
+}
+
+h3	{
+	color:navy; 
+	text-align: center; 
+	font-style: italic;
+}
+
+span{
+	color: purple; 
+	font-style: italic; 
+	text-decoration: underline;
+}
+
+p.info{
+	font-size: 18; 
+	color:fuchsia; 
+	text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: orange; 
+    margin-left: 2cm; 
+    margin-right: 2cm; 
+    margin-top: 3cm; 
+    margin-bottom: 3cm; 
+    font-size: 10;
+}
+
+h1{
+    font-size: 16; 
+    color: navy; 
+    letter-spacing: 6px;
+    word-spacing: 2cm;
+}
+
+h2{
+    color: green; 
+    font-size: 14; 
+    font-weight: bold;
+}
+
+span{
+    color: fuchsia; 
+    text-decoration: underline;
+}
