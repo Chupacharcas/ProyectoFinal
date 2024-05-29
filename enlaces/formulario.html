@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilosformulario.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="../fotos/logo_kobe.png" alt="logo">
+        <nav>
+            <div class="trofeo"><a href="../index.html"><img src="../fotos/obrien2.png" alt=""><br>Index</a></div>
+            <div class="trofeo"><a href="../enlaces/paginalibre.html"><img src="../fotos/obrien2.png" alt=""><br>Página libre</a></div>
+            <div class="trofeo"><a href="../enlaces/formulario.html"><img src="../fotos/obrien2.png" alt=""><br>Formulario</a></div>
+            <div class="trofeo"><a href="../enlaces/resumenejercicios.html"><img src="../fotos/obrien2.png" alt=""><br>Ejercicios</a></div>
+        </nav>
+    </header>
+    <br>
+   
+    <h2>Regístrate para más información</h2><br>
+    <div class="caja">
+        <div id="formulario">
+            <form action="" method="">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" ><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="contraseña">Contraseña:</label><br>
+                <input type="password" id="contraseña" name="contraseña"><br><br>
+
+                <label for="sexo">Sexo:</label><br>
+                <input type="radio" id="sexo_m" name="sexo" value="masculino">
+                <label for="sexo_m">Masculino</label><br>
+                <input type="radio" id="sexo_f" name="sexo" value="femenino">
+                <label for="sexo_f">Femenino</label><br><br>
+
+                <label for="como nos conociste">¿Cómo nos conociste?</label><br>
+                <select opcion = opcion>
+                    <option value= "TV">TV</option>
+                    <option value= "Internet">Internet</option>
+                    <option value= "Un amigo">Un amigo</option>
+                    <option value= "Otros">Otros</option>
+                </select> <br><br>
+
+                <label for="bio">Comentarios:</label><br>
+                <textarea id="bio" name="bio" rows="5" cols="60" placeholder="Ayúdanos a mejorar"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+         </div>
+    </div>
+    <br><br><br>
+
+    <audio autoplay loop>
+        <source src="../fotos/Soundtrak.mp3" type="audio/mpeg">
+    </audio>
+
+    <footer>
+        <button><a href="#">Volver a inicio</a></button>
+    
+      <div id="redes">
+        <nav id="sociales">
+          <a href="https://www.facebook.com/?locale=es_ES"><img src="../fotos/face.png" alt=""></a>
+          <a href="https://www.instagram.com/"><img src="../fotos/insta.png" alt=""></a>
+          <a href="https://twitter.com/home?lang=es"><img src="../fotos/twitter.png" alt=""></a>
+        </nav>
+      </div>
+
+      <div id="qr"></div>
+    
+      <audio autoplay loop>
+        <source src="../fotos/Soundtrak.mp3" type="audio/mpeg">
+      </audio>
+    
+      <div id="TT_yhfwbxdBdlKaScMKQAVDzjzDD5aKTKllLtkt1siIKkz"></div>
+      <script type="text/javascript" src="https://www.tutiempo.net/s-widget/l_yhfwbxdBdlKaScMKQAVDzjzDD5aKTKllLtkt1siIKkz"></script>
+    
+    </footer>
+
+</body>
+
+<script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+      var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+  
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+        if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+    
+    function MM_findObj(n, d) { //v4.01
+      var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+      if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+      for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+      if(!x && d.getElementById) x=d.getElementById(n); return x;
+    }
+    
+    function MM_swapImage() { //v3.0
+      var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+       if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+    </script>
+    
+</html>
